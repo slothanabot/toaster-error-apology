@@ -10,9 +10,9 @@ Entry for make.fun's "The Funniest Toaster Error Message" bounty
 `main.py` writes a single toaster error line to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`): the bread declined
 to participate, so the toaster asks its owner to remove it gently and
-pretend the whole thing never happened.
+deny everything.
 
-> E14: Bread declined to participate. Remove it gently and pretend this never happened.
+> E14: Bread declined to participate. Remove it gently and deny everything.
 
 Run it:
 
