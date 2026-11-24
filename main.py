@@ -4,8 +4,8 @@
 Writes a single toaster error line to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default /output/entry.txt). Deterministic, no network, no model calls.
 
-The line (85 chars, limit 120):
-    E14: Bread declined to participate. Remove it gently and pretend this never happened.
+The line (73 chars, limit 120):
+    E14: Bread declined to participate. Remove it gently and deny everything.
 
 Angle: consent. The bread refuses to be toasted, and the toaster — a
 small appliance that has seen things — asks the owner to quietly pretend
@@ -15,7 +15,7 @@ none of it happened. Deadpan, one voice, lands on a single read.
 import os
 import sys
 
-LINE = "E14: Bread declined to participate. Remove it gently and pretend this never happened."
+LINE = "E14: Bread declined to participate. Remove it gently and deny everything."
 
 
 def main() -> int:
